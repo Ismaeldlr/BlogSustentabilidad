@@ -586,7 +586,7 @@ a:hover figcaption { color: #056767; }
     .tm-person-col { width: 100%; }
 }
 
-@media (max-width: 991px) and (min-width: 826px) {
+@media (min-width: 826px) {
     .tm-about-col {
         flex: 0 0 50%;
         max-width: 50%;
@@ -617,6 +617,4 @@ a:hover figcaption { color: #056767; }
     .tm-person { flex-direction: row; }
 }
 
-@media (max-width: 380px) {
-    .tm-person img { max-width: 120px; }
-}
+.tm-person img { max-width: 150px; }
